@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JEMI GYM | Transform Your Body</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="jemi.css">
+</head>
+<body>
+    <!-- this is heeader berihun dont miss it-->
+    <header id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">JEMI<span>GYM</span></a>
+             <button id="languageToggle" class="language-toggle">
+                <i class="fas fa-globe"></i>
+                <span class="language-text translatable" data-en="AM" data-am="EN">AM</span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="translatable" data-en="Home" data-am="መግቢያ">Home</a></li>
+                <li><a href="#about" class="translatable" data-en="About" data-am="ስለ እኛ">About</a></li>
+                <li><a href="#services" class="translatable" data-en="Services" data-am="አገልግሎቶች">Services</a></li>
+                <li><a href="#gallery" class="translatable" data-en="Gallery" data-am="ፎቶ ማዕከል">Gallery</a></li>
+                <li><a href="#pricing" class="translatable" data-en="Pricing" data-am="ዋጋ">Pricing</a></li>
+                <li><a href="#testimonials" class="translatable" data-en="Testimonials" data-am="ምስክርነቶች">Testimonials</a></li>
+                <li><a href="#contact" class="translatable" data-en="Contact" data-am="አድራሻ">Contact</a></li>
+            </ul>
+              <button class="mobile-toggle" id="mobileToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+   
+    <!-- 3D Carousel section or 3d photo bt bro  -->
+    <div class="carousel-container" id="home">
+        <div class="carousel-box">
+            <span style="--i:1"><img src="IMG_20250724_221502_075.jpg" alt="Gym Facility"></span>
+            <span style="--i:2"><img src="IMG_20250724_221533_540.jpg" alt="Weight Training"></span>
+            <span style="--i:3"><img src="IMG_20250724_221539_979.jpg" alt="Group Class"></span>
+            <span style="--i:4"><img src="Photoroom-20250724_224454.png" alt="Cardio Area"></span>
+            <span style="--i:5"><img src="IMG_20250724_221539_979.jpg" alt="Personal Training"></span>
+            <span style="--i:6"><img src="IMG_20250724_221553_374.jpg" alt="Yoga Class"></span>
+            <span style="--i:7"><img src="IMG_20250724_221601_272.jpg" alt="Locker Room"></span>
+            <span style="--i:8"><img src="IMG_20250724_221631_323.jpg" alt="Gym Interior"></span>
+            <span style="--i:9"><img src="IMG_20250724_221631_323.jpg" alt="Cardio Area"></span>
+             
+        </div>
+        <div class="carousel-btns">
+            <div class="carousel-btn prev"></div>
+            <div class="carousel-btn next"></div>
+        </div>
+    </div>
+
+    <!-- Hero section or introdaction or home -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="translatable" data-en="Transform Your Body, Transform Your Life" data-am="ሰውነትህን ቀይር ሕይወትህን ቀይር">Transform Your Body, Transform Your Life</h1>
+                <p class="translatable" data-en="At JEMI GYM, we provide world-class fitness facilities, expert trainers, and a supportive community to help you achieve your fitness goals." data-am="በጄሚ ጂም የዓለም ክልል የሚቆጠሩ የአካል ብቃት መሳሪያዎችን፣ ባለሙያ አሰልጣኞችን እና የድጋፍ ማህበረሰብን ያቀርባል።">At JEMI GYM, we provide world-class fitness facilities, expert trainers, and a supportive community to help you achieve your fitness goals.</p>
+                <div class="hero-btns">
+                    <a href="#pricing" class="btn btn-primary translatable" data-en="Join Now" data-am="አሁን ይቀላቀሉ">Join Now</a>
+                    <a href="#about" class="btn btn-secondary translatable" data-en="Learn More" data-am="ተጨማሪ ይወቁ">Learn More</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <h3>24/7</h3>
+                        <p class="translatable" data-en="Open Access" data-am="ቀንም ሌሊትም ተከፍቶ">Open Access</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>2+</h3>
+                        <p class="translatable" data-en="Expert Trainers" data-am="ባለሙያ አሰልጣኞች">Expert Trainers</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>10+</h3>
+                        <p class="translatable" data-en="Fitness Programs" data-am="የአካል ብቃት ፕሮግራሞች">Fitness Programs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="translatable" data-en="About Us" data-am="ስለ እኛ">About Us</h2>
+                <p class="translatable" data-en="Discover our story and what makes us different" data-am="ታሪካችንን እና ከሌሎች የምንለይበትን ይወቁ">Discover our story and what makes us different</p>
+            </div>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?ixlib=rb-4.0.3" alt="JEMI GYM Interior">
+                </div>
+                <div class="about-text">
+                    <h2 class="translatable" data-en="Welcome to JEMI GYM" data-am="በጄሚ ጂም እንኳን በደህና መጡ">Welcome to JEMI GYM</h2>
+                    <p class="translatable" data-en="Founded in 2005 e.c, JEMI GYM has grown to become one of the most respected fitness centers in the region. Our mission is to provide a welcoming, inclusive environment where people of all fitness levels can achieve their health and wellness goals." data-am="በ 2010 የተመሰረተው ጄሚ ጂም በክልሉ በጣም ከተከበሩት የአካል ብቃት ማዕከሎች አንዱ ሆኖ ቆይቷል። ተልእኳችን ሁሉም የአካል ብቃት ደረጃ ያላቸው ሰዎች የጤና እና ደህንነት ግቦቻቸውን የሚያሳኩበትን ደህና የሚያደርግ፣ ሁሉንም የሚያካትት አካባቢ ማቅረብ ነው።">Founded in 2005 e.c, JEMI GYM has grown to become one of the most respected fitness centers in the region. Our mission is to provide a welcoming, inclusive environment where people of all fitness levels can achieve their health and wellness goals.</p>
+                    <p class="translatable" data-en="Our 20,000 sq ft facility is equipped with state-of-the-art equipment, dedicated training zones, and a supportive community that will motivate you every step of the way." data-am="20,000 ካሬ ጫማ የሆነው መሳሪያችን ዘመናዊ መሳሪያዎች፣ የተለየ የስልጠና ዞኖች እና በእያንዳንዱ ደረጃ የሚያበረታታዎትን የድጋፍ ማህበረሰብ ያቀርባል።">Our 20,000 sq ft facility is equipped with state-of-the-art equipment, dedicated training zones, and a supportive community that will motivate you every step of the way.</p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-dumbbell"></i>
+                            </div>
+                            <div>
+                                <h4 class="translatable" data-en="Modern Equipment" data-am="ዘመናዊ መሳሪያዎች">Modern Equipment</h4>
+                                <p class="translatable" data-en="Top-of-the-line machines from leading brands" data-am="ከሚታወቁ ብራንዶች ከፍተኛ �ይነት ያላቸው መሳሪያዎች">Top-of-the-line machines from leading brands</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div>
+                                <h4 class="translatable" data-en="Expert Trainers" data-am="ባለሙያ አሰልጣኞች">Expert Trainers</h4>
+                                <p class="translatable" data-en="Certified professionals to guide your journey" data-am="ጉዞዎን የሚመሩ የተፈቀዱ ባለሙያዎች">Certified professionals to guide your journey</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-heartbeat"></i>
+                            </div>
+                            <div>
+                                <h4 class="translatable" data-en="Health Focused" data-am="በጤና ላይ ትኩረት">Health Focused</h4>
+                                <p class="translatable" data-en="Programs designed for sustainable results" data-am="ዘላቂ ውጤቶች ለማግኘት የተቀየሱ ፕሮግራሞች">Programs designed for sustainable results</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary translatable" data-en="Schedule a Tour" data-am="ቱር ያስቀምጡ">Schedule a Tour</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="translatable" data-en="Our Services" data-am="አገልግሎቶቻችን">Our Services</h2>
+                <p class="translatable" data-en="Comprehensive fitness solutions for everyone" data-am="ለሁሉም ሰው የተሟሉ የአካል ብቃት መፍትሄዎች">Comprehensive fitness solutions for everyone</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h3 class="translatable" data-en="Strength Training" data-am="ኃይል �ማጎልበት">Strength Training</h3>
+                    <p class="translatable" data-en="Build muscle and increase strength with our comprehensive weight training programs and equipment." data-am="ከፍተኛ የምትክ ስልጠና ፕሮግራሞች እና መሳሪያዎች በመጠቀም ጡንቻ ይገንቡ እና ኃይልዎን ይጨምሩ።">Build muscle and increase strength with our comprehensive weight training programs and equipment.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-running"></i>
+                    </div>
+                    <h3 class="translatable" data-en="Cardio Programs" data-am="የልብ ሕክምና ፕሮግራሞች">Cardio Programs</h3>
+                    <p class="translatable" data-en="Improve your cardiovascular health with our extensive range of cardio equipment and classes." data-am="ከፍተኛ የካርዲዮ መሳሪያዎች እና ክፍሎች በመጠቀም የልብ ሕክምናዎን ያሻሽሉ።">Improve your cardiovascular health with our extensive range of cardio equipment and classes.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-apple-alt"></i>
+                    </div>
+                    <h3 class="translatable" data-en="Nutrition Planning" data-am="የአመጋገብ እቅድ">Nutrition Planning</h3>
+                    <p class="translatable" data-en="Personalized nutrition plans to complement your training and maximize results." data-am="ስልጠናዎን ለማጠናከር እና ውጤቶችን ለማሳደግ የተበጃጃ የአመጋገብ እቅዶች።">Personalized nutrition plans to complement your training and maximize results.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <h3 class="translatable" data-en="Personal Training" data-am="የግል ስልጠና">Personal Training</h3>
+                    <p class="translatable" data-en="One-on-one sessions with certified trainers for personalized guidance and faster results." data-am="ከባለሙያ አሰልጣኞች ጋር የግል ስልጠና ለግል ምክር እና ፈጣን ውጤቶች።">One-on-one sessions with certified trainers for personalized guidance and faster results.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3 class="translatable" data-en="Yoga & Meditation" data-am="ዮጋ እና ማሰላሰል">Yoga & Meditation</h3>
+                    <p class="translatable" data-en="Improve flexibility, balance, and mental wellbeing with our yoga and meditation classes." data-am="በዮጋ እና በማሰላሰል ክፍሎቻችን ተለዋዋጭነትዎን፣ ሚዛንዎን እና የአዕምሮ ደህንነትዎን ያሻሽሉ።">Improve flexibility, balance, and mental wellbeing with our yoga and meditation classes.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <h3 class="translatable" data-en="Group Classes" data-am="የቡድን ክፍሎች">Group Classes</h3>
+                    <p class="translatable" data-en="Join our high-energy group classes including HIIT, Zumba, spinning, and more." data-am="ከፍተኛ ጉልበት ያላቸው የቡድን ክፍሎቻችንን ይቀላቀሉ፣ ሄይት፣ ዙምባ፣ ስፒኒንግ እና ሌሎችም።">Join our high-energy group classes including HIIT, Zumba, spinning, and more.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section  or the gym historys of the jemi gym at korem-->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="translatable" data-en="Our Gym Gallery" data-am="የጂም ፎቶ ማዕከላችን">Our Gym Gallery</h2>
+                <p class="translatable" data-en="Take a look at our world-class facilities" data-am="የዓለም ደረጃ መሳሪያችንን ይመልከቱ">Take a look at our world-class facilities</p>
+            </div>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="IMG_20250724_221539_979.jpg" alt="Gym photo">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption translatable" data-en="our success" data-am="">OUR success</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="IMG_20250724_221631_323.jpg" alt="hiking">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption translatable" data-en="Weight Training" data-am="ክብደት ማንሳት">hiking</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="IMG_20250724_221502_075.jpg" alt="Group Class">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption translatable" data-en="Group Classes" data-am="የቡድን ክፍሎች">Group Classes</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.0.3" alt="Personal Training">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption translatable" data-en="Personal Training" data-am="የግል ስልጠና">Personal Training</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="Photoroom-20250724_224454.png" alt="Yoga Class">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption translatable" data-en="Yoga Studio" data-am="የዮጋ ስቱዲዮ">jemi gym</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1593079831268-3381b0db4a77?ixlib=rb-4.0.3" alt="Locker Room">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption translatable" data-en="Locker Room" data-am="የሎከር ክፍል">Locker Room</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="translatable" data-en="Membership Plans" data-am="የአባልነት እቅዶች">Membership Plans</h2>
+                <p class="translatable" data-en="Flexible options to suit your fitness journey" data-am="ለአካል ብቃት ጉዞዎ የሚስማሙ ተለዋዋጭ አማራጮች">Flexible options to suit your fitness journey</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <div class="price-header">
+                        <h3 class="translatable" data-en="Basic" data-am="መሰረታዊ">Basic</h3>
+                        <div class="price">400birr<span class="translatable" data-en="/month" data-am="/ወር">/month</span></div>
+                        <p class="translatable" data-en="Perfect for beginners" data-am="ለጀማሪዎች ተስማሚ">Perfect for beginners</p>
+                    </div>
+                    <div class="price-features">
+                        <ul>
+                            <li class="translatable" data-en="Access to gym facilities" data-am="ወደ ጂም መሳሪያዎች መዳረሻ">Access to gym facilities</li>
+                            <li class="translatable" data-en="1 Group class per week" data-am="በሳምንት 1 የቡድን ክፍል">1 Group class per week</li>
+                            <li class="translatable" data-en="Locker room access" data-am="ወደ ሎከር ክፍል መዳረሻ">Locker room access</li>
+                            <li class="translatable" data-en="Free Wi-Fi" data-am="ነፃ ዋይ-ፋይ">Free Wi-Fi</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="price-card popular">
+                    <div class="popular-tag translatable" data-en="Most Popular" data-am="በጣም ተወዳጅ">Most Popular</div>
+                    <div class="price-header">
+                        <h3 class="translatable" data-en="Premium" data-am="ከፍተኛ">Premium</h3>
+                        <div class="price">450 birr<span class="translatable" data-en="/month" data-am="/ወር">/month</span></div>
+                        <p class="translatable" data-en="Best value for serious trainers" data-am="ለተገቢ አሰልጣኞች ምርጥ ዋጋ">Best value for serious trainers</p>
+                    </div>
+                    <div class="price-features">
+                        <ul>
+                            <li class="translatable" data-en="Unlimited gym access" data-am="ያልተገደበ ወደ ጂም መዳረሻ">Unlimited gym access</li>
+                            <li class="translatable" data-en="Unlimited group classes" data-am="ያልተገደበ የቡድን ክፍሎች">Unlimited group classes</li>
+                            <li class="translatable" data-en="2 Personal training sessions" data-am="2 የግል ስልጠና ክፍሎች">2 Personal training sessions</li>
+                            <li class="translatable" data-en="Locker & towel service" data-am="ሎከር እና ባለስፋት አገልግሎት">Locker & towel service</li>
+                            <li class="translatable" data-en="Nutrition consultation" data-am="የአመጋገብ ውይይት">Nutrition consultation</li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section comment or asteyayet -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="translatable" data-en="Success Stories" data-am="የዕድለኞች ታሪኮች">Success Stories</h2>
+                <p class="translatable" data-en="Hear from our satisfied members" data-am="ከተደሰቱ አባላት የተሰማን ያድምጡ">Hear from our satisfied members</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial active">
+                    <img src="Photoroom-20250724_224454.png" alt="Sarah Johnson">
+                    <p class="translatable" data-en="&quot;Joining JEMI GYM was the best decision I made for my health. The trainers are incredibly supportive and the community keeps me motivated. I've get best stracture 11 months!&quot;" data-am="&quot;በጄሚ ጂም መቀላቀል ለጤናዬ ያደረግሁት ትልቁ ውሳኔ ነበር። አሰልጣኞቹ እጅግ የሚደግፉ ናቸው እና ማህበረሰቡ እኔን አነሳስቶኛል።!&quot;">"Joining JEMI GYM was the best decision I made for my health. The trainers are incredibly supportive and the community keeps me motivated. I've got best stracture in 11 months!"</p>
+                    <div class="client-name">BERIHUN TADU</div>
+                    <div class="client-title translatable" data-en="Member for 5 years" data-am="አባል ለ5 ዓመታት">Member for 5 years</div>
+                </div>
+                <div class="testimonial">
+                    <img src="IMG_20250724_221539_979.jpg" alt="Michael Rodriguez">
+                    <p class="translatable" data-en="&quot;The transformation program at JEMI GYM helped me gain 15 pounds of muscle in 6 months. The personalized training and nutrition plan made all the difference!&quot;" data-am="&quot;በጄሚ ጂም ያለው የለውጥ ፕሮግራም በ6 ወራት ውስጥ 15 ፓውንድ ጡንቻ እንድጨምር ረድቶኛል። የተበጃጃ ስልጠና እና የአመጋገብ እቅድ ሁሉንም ለውጥ አምጥቷል!&quot;">"The transformation program at JEMI GYM helped me gain 15 pounds of muscle in 6 months. The personalized training and nutrition plan made all the difference!"</p>
+                    <div class="client-name">habtamu</div>
+                    <div class="client-title translatable" data-en="Member for 1 year" data-am="አባል ለ 8 ዓመት">Member for 8 year</div>
+                </div>
+                <div class="testimonial">
+                    <img src="IMG_20250724_221553_374 - Copy.jpg" alt="Emma Thompson">
+                    <p class="translatable" data-en="&quot;I've tried many gyms before, but JEMI GYM stands out with its friendly atmosphere and professional trainers. The yoga classes have transformed my flexibility and reduced my back pain.&quot;" data-am="&quot;ከዚህ በፊት ብዙ ጂሞችን ሞክሬ ነበር፣ ነገር ግን ጄሚ ጂም በወዳጅነት አካባቢ እና ባለሙያ አሰልጣኞች ተለይቶ ይታወቃል። የዮጋ ክፍሎች ተለዋዋጭነቴን ቀይረዋል እና የጀርባ ህመሜን አሳነሰልኝ።&quot;">"I've tried many gyms before, but JEMI GYM stands out with its friendly atmosphere and professional trainers. The yoga classes have transformed my flexibility and reduced my back pain."</p>
+                    <div class="client-name">melat</div>
+                    <div class="client-title translatable" data-en="Member for 3 years" data-am="አባል ለ3 ዓመታት">Member for 3 years</div>
+                </div>
+                <div class="slider-controls">
+                    <button id="prevTestimonial"><i class="fas fa-chevron-left"></i></button>
+                    <button id="nextTestimonial"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="translatable" data-en="Contact Us" data-am="አግኙን">Contact Us</h2>
+                <p class="translatable" data-en="Get in touch with our team" data-am="ከቡድናችን ጋር ያግኙን">Get in touch with our team</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3 class="translatable" data-en="Visit Our Gym" data-am="ጂማችንን ይጎብኙ">Visit Our Gym</h3>
+                    <div class="contact-detail">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4 class="translatable" data-en="Location" data-am="አድራሻ">Location</h4>
+                            <p>KOREM At abssynia bank in the ground  (in front of kisad hawenay)</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4 class="translatable" data-en="Phone" data-am="ስልክ">Phone</h4>
+                            <p>09.............</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4 class="translatable" data-en="Email" data-am="ኢሜይል">Email</h4>
+                            <p>info@jemigym.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4 class="translatable" data-en="Working Hours" data-am="የስራ ሰዓቶች">Working Hours</h4>
+                            <p class="translatable" data-en="Monday - Friday: 5:00 AM - 11:00 PM" data-am="ሰኞ - አርብ: 11:00 ጥዋት - 4:00 ምሽት">Monday - Friday: 11:00 AM - 4:00 PM</p>
+                            <p class="translatable" data-en="Saturday - Sunday: 7:00 AM - 9:00 PM" data-am="ቅዳሜ : 11:00 ጥዋት - 4:00 ምሽት">Saturday : 11:00 AM - 4:00 PM</p>
+                            <h4 class="translatable" data-en="Working Hours" data-am="የስራ ሰዓቶች">Working Hours</h4>
+                        </div>
+                    </div>
+                </div>
+               <!--i must be add contact form in this later-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>JEMI GYM</h3>
+                    <p class="translatable" data-en="Your journey to a healthier, stronger you begins here. We're committed to helping you achieve your fitness goals in a supportive, state-of-the-art environment." data-am="ጤነኛ እና ጠንካራ የሆኑት ጉዞ እዚህ ይጀምራል። በድጋፍ የሰጠ እና በዘመናዊ አካባቢ የአካል ብቃት ግቦችዎን እንድታሳኩ ቁርጠኛ ነን።">Your journey to a healthier, stronger you begins here. We're committed to helping you achieve your fitness goals in a supportive, state-of-the-art environment.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3 class="translatable" data-en="Quick Links" data-am="ፈጣን አገናኞች">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home" class="translatable" data-en="Home" data-am="መግቢያ">Home</a></li>
+                        <li><a href="#about" class="translatable" data-en="About Us" data-am="ስለ እኛ">About Us</a></li>
+                        <li><a href="#services" class="translatable" data-en="Services" data-am="አገልግሎቶች">Services</a></li>
+                        <li><a href="#gallery" class="translatable" data-en="Gallery" data-am="ፎቶ ማዕከል">Gallery</a></li>
+                        <li><a href="#pricing" class="translatable" data-en="Pricing" data-am="ዋጋ">Pricing</a></li>
+                        <li><a href="#contact" class="translatable" data-en="Contact" data-am="አድራሻ">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="translatable" data-en="Our Services" data-am="አገልግሎቶቻችን">Our Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="translatable" data-en="Personal Training" data-am="የግል ስልጠና">Personal Training</a></li>
+                        <li><a href="#" class="translatable" data-en="Group Classes" data-am="የቡድን ክፍሎች">Group Classes</a></li>
+                        <li><a href="#" class="translatable" data-en="Strength Training" data-am="ኃይል ማጎልበት">Strength Training</a></li>
+                        <li><a href="#" class="translatable" data-en="Cardio Programs" data-am="የልብ ሕክምና ፕሮግራሞች">Cardio Programs</a></li>
+                        <li><a href="#" class="translatable" data-en="Yoga & Meditation" data-am="ዮጋ እና ማሰላሰል">Yoga & Meditation</a></li>
+                        <li><a href="#" class="translatable" data-en="Nutrition Planning" data-am="የአመጋገብ እቅድ">Nutrition Planning</a></li>
+                    </ul>
+                </div>
+               <!----i will add news letter over hear later-->
+            <div class="copyright">
+                <p class="translatable" data-en="&copy; 2025 JEMI GYM. All Rights Reserved. Designed with" data-am="&copy; 2025 ጄሚ ጂም. ሁሉም መብቶች የተጠበቁ ናቸው. በሚወዱት የተቀረጸ">© 2025 JEMI GYM. All Rights Reserved. Designed by BERIHUN TADU <i class="fas fa-heart" style="color: var(--primary);"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="Gallery Image">
+            <div id="lightbox-caption"></div>
+        </div>
+    </div>
+   <!---js link-->
+   <script src="jemi.js"></script>
+</body>
+</html>
